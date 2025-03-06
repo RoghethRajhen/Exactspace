@@ -2,7 +2,11 @@
 The below steps focus on how you can bring this scraping application up. We are using docker images to run the application
 
 #### Steps to run the application
-1. Download the folder to your local. See to that the terminal is inside the folder Exactspace.
+1. Clone the folder to your local.
+```yaml
+    git clone https://github.com/RoghethRajhen/Exactspace.git
+```
+See to that the terminal is inside the folder Exactspace.
 2. To create a docker image
 ```yaml
     docker build --build-arg SCRAPE_URL="www.example.com" -t <image-name> .
